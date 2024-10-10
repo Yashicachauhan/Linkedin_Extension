@@ -85,7 +85,7 @@ Key Files
 manifest.json: Defines the extension's metadata and permissions.
 contentScript.js: Contains the logic to add the floating button and automate the connection requests.
 ConnectAllButton.js: React component that creates and handles the "Connect with All" button.
-background.js: (Optional) Background script for managing extension-wide tasks.
+background.js: Background script for managing extension-wide tasks.
 
 Usage
 
