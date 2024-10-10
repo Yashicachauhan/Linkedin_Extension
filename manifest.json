@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn Auto Connect",
+  "version": "1.0",
+  "description": "Automatically send connection requests on LinkedIn",
+  "permissions": ["activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.linkedin.com/mynetwork/grow/*"],
+      "js": ["dist/contentScript.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "index.html"
+  }
+}
