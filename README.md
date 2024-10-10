@@ -78,7 +78,7 @@ linkedin-extension/
 
 ├── README.md                  # Project documentation
 
-└── FloatingButtons.css        # Optional CSS file for button styling
+└── FloatingButtons.css        # CSS file for button styling
 
 Key Files
 
